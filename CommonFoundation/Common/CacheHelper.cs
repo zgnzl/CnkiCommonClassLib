@@ -7,7 +7,6 @@ using System.Web.Caching;
 using System.Runtime.CompilerServices;
 using System.Collections;
 using System.Text.RegularExpressions;
-
 namespace CommonFoundation.Common
 {
     public class CacheHelper
