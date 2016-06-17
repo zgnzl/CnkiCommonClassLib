@@ -1,0 +1,2 @@
+1.Application.DoEvents() 起到了一个实时响应的效果，处理同样的一个事件调用了DoEvents后效率降低了好几倍，这也是为什么要慎用的原因了。
+2.Connect Timeout=1000 string sqlConnectionString = string.Format("server={0};database={1};User={2};password={3};Connect Timeout=1000", "192.168.168.228", "高被引_董", "sa", "sa@12345");
